@@ -14,7 +14,9 @@ function squareSum2(n){
     var squareSum = 0;
     var i = 1;
     if(n < 1){
-     return n * -1
+     i = n;
+     n = 1;
+     
     }
     while(i <= n){
         sum = sum + i * i;
