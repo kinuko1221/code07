@@ -25,17 +25,12 @@ function squareSum2(n){
       return sum;
 }
 
-function Sum(n){
-     var sum = 0;
-    var i = 1;
-    
-    sum = 0;
-    
-    while(i <= 4){
-        sum = sum + i; //i = 1;
-        i = i + 1;
-    }
-    
-    return sum;
+function Sum(list){
+     var result = 0;
+      var i = 0;
+     while(i < list.length){
+         result = result + list[i]
+     }
+    return result;
 }
    
